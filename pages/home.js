@@ -6,7 +6,6 @@ import { Text, Box, Button, ButtonGroup, FormControl,
   FormHelperText,Input,  Stack, HStack, VStack, Flex, Spacer, Grid, GridItem, Center, Divider, Image , Container, Wrap, WrapItem, IconButton, Spinner, SimpleGrid, List, ListItem, ListIcon, OrderedList, UnorderedList } from "@chakra-ui/react";
   import Link from 'next/link'
   import Nav from "./nav"
-  import Portfolio from "./portfolio"
   import {  GrGithub, GrTwitter, GrValidate } from "react-icons/gr";
 
   import Slider from "react-slick";
