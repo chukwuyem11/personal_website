@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
 import { Text, Box, Button, ButtonGroup, FormControl,
   FormLabel,
   FormErrorMessage,
@@ -8,9 +7,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
   import Nav from "./nav"
   import {  GrGithub, GrTwitter, GrValidate } from "react-icons/gr";
 
-  import Slider from "react-slick";
-  import "slick-carousel/slick/slick.css";
-  import "slick-carousel/slick/slick-theme.css";
+
 //mobiletvshows
   //IBM plex mono
 //#353535

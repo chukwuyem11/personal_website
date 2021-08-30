@@ -1,5 +1,4 @@
 import React,  {useState, createRef} from "react";
-import styles from "../styles/Home.module.css";
 import { Text, Box, Button, Flex, Spacer, Image,   Drawer,
   DrawerBody,
   DrawerFooter,
