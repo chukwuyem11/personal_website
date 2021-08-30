@@ -59,7 +59,7 @@ if (!dev && cluster.isMaster) {
         return nextApp.render(req, res, '/a', req.query)
       })
 
-      app.get("/download", function(req, res){
+      server.get("/download", function(req, res){
         const file = "public/resume.png"
         res.download(file)
       })
