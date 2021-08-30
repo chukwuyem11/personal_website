@@ -59,6 +59,11 @@ if (!dev && cluster.isMaster) {
         return nextApp.render(req, res, '/a', req.query)
       })
 
+      app.get("/download", function(req, res){
+        const file = "public/resume.png"
+        res.download(file)
+      })
+
       // Default catch-all renders Next app
       server.get('*', (req, res) => {
         // res.set({
