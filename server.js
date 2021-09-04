@@ -28,6 +28,8 @@ if (!dev && cluster.isMaster) {
   nextApp.prepare()
     .then(() => {
       const server = express();
+      
+
 
       if (!dev) {
         // Enforce SSL & HSTS in production
@@ -60,7 +62,7 @@ if (!dev && cluster.isMaster) {
       })
 
       server.get("/download", function(req, res){
-        const file = "public/resume.png"
+        const file = "public/resumepdf.pdf"
         res.download(file)
       })
 

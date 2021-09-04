@@ -38,9 +38,20 @@ import { Text, Box, Button, ButtonGroup, FormControl,
       link: "https://thedoormanlogistics.com/"
       
     },
+    
     {id: 6,
-      image:"grade4",
-      link: "https://oleafreshmamacare.com/"
+      image:"past7",
+      link: "https://github.com/chukwuyem11/personal_site"
+      
+    },
+    {id: 7,
+      image:"past8",
+      link: "https://github.com/chukwuyem11/simple-todo"
+      
+    },
+    {id: 8,
+      image:"past9",
+      link: "https://zupermart.com.ng/"
       
     },
     ]
@@ -115,74 +126,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
 
           </Box></Center>
           </Box></Center></Flex>
-        <Box display={["block", "none", "block"]}
-  as="button"
-  height="24px"
-  lineHeight="1.2"
-  transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
-  
-  pt="10px"
-  pl="10px"
-  pr="10px"
-  pb="30px"
-  borderRadius="5px"
-  fontSize="17px"
-  fontWeight="semibold"
-  bg="#ffffff"
-  
-  mb="50px"
-  
-  color="#3535350"
-  _hover={{ bg: "#353535", color:"#ffffff" }}
-  _active={{
-    bg: "#dddfe2",
-    transform: "scale(0.98)",
-    borderColor: "#bec3c9",
-  }}
-  _focus={{
-    boxShadow:
-      "0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)",
-  }}
->
-  Explore
-</Box>
-
-<Flex display={["none", "block", "none"]}>
-  <Center>
-<Box
-  as="button"
-  height="24px"
-  lineHeight="1.2"
-  transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
-  
-  
-  pt="10px"
-  pl="10px"
-  pr="10px"
-  pb="30px"
-  borderRadius="5px"
-  fontSize="17px"
-  fontWeight="semibold"
-  bg="#ffffff"
-  mt="30px"
-  mb="50px"
-  
-  color="#3535350"
-  _hover={{ bg: "#353535", color:"#ffffff" }}
-  _active={{
-    bg: "#dddfe2",
-    transform: "scale(0.98)",
-    borderColor: "#bec3c9",
-  }}
-  _focus={{
-    boxShadow:
-      "0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)",
-  }}
->
-  Explore
-</Box>
-</Center>
-</Flex>
+       
 <Flex w="10%">
 
 </Flex>
