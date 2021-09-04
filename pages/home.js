@@ -60,14 +60,14 @@ import { Text, Box, Button, ButtonGroup, FormControl,
           <Flex >
             <Center>
            
-        <Box ><Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["30px", "35px", "40px"]} mt="50px" textAlign={["left","center", "left"]}>Hello,</Text><Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["30px", "35px", "40px"]} textAlign={["left","center", "left"]}> I'm Eboigbodin Chukwuyem</Text>
-        <Box w={["","","80%"]}><Text fontSize={["16px","18px", "20px" ]} color="#ffffff" mt="50px" mb="50px" textAlign={["left","center", "left"]}>I design platforms and help solve problems with my skills on the web, and yes, I love it, it's fun.</Text></Box>
+        <Box ><Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["30px", "35px", "40px"]} mt="50px" textAlign={["left","center", "left"]} fontFamily="IBM Plex Mono">Hello,</Text><Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["30px", "35px", "40px"]} textAlign={["left","center", "left"]} fontFamily="IBM Plex Mono"> I'm Eboigbodin Chukwuyem</Text>
+        <Box w={["","","80%"]}><Text fontSize={["16px","18px", "20px" ]} color="#ffffff" mt="50px" mb="50px" textAlign={["left","center", "left"]} fontFamily="IBM Plex Mono">I design platforms and help solve problems with my skills on the web, and yes, I love it, it's fun.</Text></Box>
        
         <Box display={["block", "none", "block"]}>
-          <Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["25px", "35px", "40px"]}  textAlign={["left","center", "left"]}>Skilled In</Text>
+          <Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["25px", "35px", "40px"]} fontFamily="IBM Plex Mono" textAlign={["left","center", "left"]}>Skilled In</Text>
           <Flex mb="50px" mt="50px" >
           
-            <Box mr="20px">
+            <Box mr="20px" fontFamily="IBM Plex Mono">
             
           <UnorderedList>
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">React</ListItem>
@@ -95,11 +95,11 @@ import { Text, Box, Button, ButtonGroup, FormControl,
           
           <Center  display={["none", "block", "none"]}>
         <Box >
-          <Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["25px", "35px", "40px"]} mb="50px" textAlign={["left","center", "left"]} >Skilled In</Text>
+          <Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["25px", "35px", "40px"]} mb="50px" fontFamily="IBM Plex Mono" textAlign={["left","center", "left"]} >Skilled In</Text>
           <Center>
           <Flex mb="50px" >
           
-            <Box mr="20px">
+            <Box mr="20px" fontFamily="IBM Plex Mono" >
             
           <UnorderedList>
   <ListItem textAlign={["left","center", "left"]} fontSize={["16px","18px", "20px" ]} color="#ffffff">React</ListItem>
@@ -111,7 +111,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
   
 </UnorderedList>
 </Box>
-<Box>
+<Box fontFamily="IBM Plex Mono">
           <UnorderedList>
           <ListItem textAlign={["left","center", "left"]} fontSize={["16px","18px", "20px" ]}color="#ffffff">Nest js</ListItem>
   <ListItem textAlign={["left","center", "left"]} fontSize={["16px","18px", "20px" ]} color="#ffffff">React Native Web</ListItem>
@@ -131,7 +131,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
 
 </Flex>
 <Box >
-  <Text mb="50px" color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["25px", "35px", "40px"]}  textAlign={["left","center", "left"]}>My Works</Text>
+  <Text mb="50px" color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["25px", "35px", "40px"]} fontFamily="IBM Plex Mono"  textAlign={["left","center", "left"]}>My Works</Text>
 </Box>
 <Box display={["block", "none", "block"]}>
 <Grid   templateColumns="repeat(2, 1fr)" gap={[6, -6,-6]} mb="50px">
