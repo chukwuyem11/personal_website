@@ -24,7 +24,7 @@ import { Text, Box, Button, Flex, Spacer, Image,   Drawer,
   const Nav = (props) => {
 
 
-    if (typeof window === "undefined") return 500;
+    if (typeof window === "undefined") return <Text textAlign="center" fontSize={["25px","30px", "35px" ]} color="#ffffff" fontWeight="900" fontFamily="IBM Plex Mono" >Loading...</Text>;
     const [scrollPos, setScrollPos] = useState(window.pageYOffset);
 
     const onScroll = () => {
