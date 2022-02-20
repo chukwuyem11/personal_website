@@ -13,47 +13,29 @@ import { Text, Box, Button, ButtonGroup, FormControl,
 //#353535
   const Home = () => {
     const Works = [
-      {id: 1,
-        image:"past1",
-        link: "https://deentrepreneur.biz/"
-    },
-    {id: 2,
-    
-      image:"past2",
-      link: "https://oleafreshmamacare.com/"
-     
+      {
+        id: 1,
+        image:"mami",
+        link: "https://mamihq.herokuapp.com"
+        
+      },
+    {
+      id: 2,
+      image:"crocs",
+      link: "https://github.com/chukwuyem11/crocs-commerce"
+      
     },
     {id: 3,
-      image:"past3",
-      link: "https://pelladeb.com/"
+      image:"past7",
+      link: "https://github.com/chukwuyem11/personal_website"
       
     },
     {id: 4,
-      image:"past4",
-      link: "https://riosmua.com/"
-      
-    },
-    {id: 5,
-      image:"past6",
-      link: "https://thedoormanlogistics.com/"
-      
-    },
-    
-    {id: 6,
-      image:"past7",
-      link: "https://github.com/chukwuyem11/personal_site"
-      
-    },
-    {id: 7,
       image:"past8",
       link: "https://github.com/chukwuyem11/simple-todo"
       
     },
-    {id: 8,
-      image:"past9",
-      link: "https://zupermart.com.ng/"
-      
-    },
+    
     ]
     return (
         <Nav>
