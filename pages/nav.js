@@ -74,22 +74,7 @@ import { Text, Box, Button, Flex, Spacer, Image,   Drawer,
           
            
             <Box w="100%"   fontSize="20px" fontFamily="IBM Plex Mono"  h= "75px" >
-              <Flex w="100%"  pt={10} >
-            <Link href="/">
-            <Box  >
-            <Text color="#ffffff">
-                Me
-                </Text>
-            </Box>
-            </Link>
-            
-            <Box as="button" onClick={ downloaded}  ml={50} >
-              <Text  color="#ffffff">
-               Resume
-               </Text>
-            </Box>
-            
-            </Flex>
+              
             </Box>
   <Box >{props.children}</Box>
 
@@ -98,30 +83,7 @@ import { Text, Box, Button, Flex, Spacer, Image,   Drawer,
       </Flex> 
       
       <Flex display={["block", "block", "none"]} flexDirection="column" justifyContent="space-between" bg="#353535" >
-          <Box   >
-
           
-           <Center>
-            <Box  zIndex={2}  fontSize="20px" fontFamily="IBM Plex Mono"  h= "75px" >
-              <Flex w="100%"   >
-            <Link href="/">
-            <Box  >
-            <Text color="#ffffff" p={5}>
-                Me
-                </Text>
-            </Box>
-            </Link>
-            <Box as="button" onClick={downloaded}  ml={50} >
-              <Text  color="#ffffff">
-               Resume
-               </Text>
-            </Box>
-            </Flex>
-            </Box>
-            </Center>
-  
-
-          </Box >
           <Box mt="-100px"  bgPosition="center" bgGradient="url(grade5.png)" ><Center  w="100%" h="700px"  ><Box   ><Center><Image  src="memoji.png"  w={["200px","250px", "300px" ]} h={["200px","250px", "300px" ]} borderRadius="100%" bg="#353535"    alt="Segun Adebayo"  p="0" /></Center><Text textAlign="center" fontSize={["25px","30px", "35px" ]} color="#ffffff" fontWeight="900" fontFamily="IBM Plex Mono"  >Eboigbodin Chukwuyem</Text><Text  textAlign="center" fontSize={["16px","18px", "20px" ]} color="#ffffff" lineHeight="25px" fontFamily="IBM Plex Mono">eboigbodinchukwuyem@gmail.com</Text> <Center  > <Flex mt="15px"><Box ><Link href="https://github.com/chukwuyem11">< GrGithub _hover={{ bg: "#353535", color:"#ffffff" }} fontSize="30px"  color="#ffffff" /></Link></Box> <Box ml={5}> <Link href="https://www.linkedin.com/in/chukwuyem-eboigbodin-37b245217/">< GrLinkedinOption _hover={{ bg: "#353535", color:"#ffffff" }} fontSize="30px"  color="#ffffff"/></Link></Box></Flex></Center></Box></Center> </Box>
           <Box p="15px" >{props.children}</Box>
       </Flex>
