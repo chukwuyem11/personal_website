@@ -68,7 +68,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Next js</ListItem>
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Public Speaking</ListItem>
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Communication skills</ListItem>
-  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Wordpress</ListItem>
+  
 </UnorderedList>
 </Box>
 
