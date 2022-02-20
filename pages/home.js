@@ -57,7 +57,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Express js</ListItem>
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Javascript</ListItem>
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Mysql</ListItem>
-  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Postgresql</ListItem>
+  
   
 </UnorderedList>
 </Box>
@@ -66,7 +66,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
           <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Nest js</ListItem>
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">React Native Web</ListItem>
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Next js</ListItem>
-  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Public Speaking</ListItem>
+  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Postgresql</ListItem>
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Communication skills</ListItem>
   
 </UnorderedList>
