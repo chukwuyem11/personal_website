@@ -51,15 +51,7 @@ if (!dev && cluster.isMaster) {
         maxAge: dev ? '0' : '365d'
       }));
     
-      // Example server-side routing
-      server.get('/a', (req, res) => {
-        return nextApp.render(req, res, '/b', req.query)
-      })
-
-      // Example server-side routing
-      server.get('/b', (req, res) => {
-        return nextApp.render(req, res, '/a', req.query)
-      })
+      
 
       server.get("/download", function(req, res){
         const file = "public/resumepdf.pdf"
