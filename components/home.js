@@ -15,22 +15,46 @@ import { Text, Box, Button, ButtonGroup, FormControl,
     const Works = [
       {
         id: 1,
+        image:"past15",
+        link: "https://min-website-roan.vercel.app/"
+        
+      },
+      {
+        id: 2,
+        image:"past14",
+        link: "https://min-website-roan.vercel.app/dashboard"
+        
+      },
+      {
+        id: 3,
+        image:"past12",
+        link: "https://chaaart.vercel.app/"
+        
+      },
+      {
+        id: 4,
+        image:"past13",
+        link: "https://landing2-henna.vercel.app/"
+        
+      },
+      {
+        id: 5,
         image:"mami",
         link: "https://mamihq.herokuapp.com"
         
       },
     {
-      id: 2,
+      id: 6,
       image:"crocs",
       link: "https://github.com/chukwuyem11/crocs-commerce"
       
     },
-    {id: 3,
+    {id: 7,
       image:"past7",
       link: "https://github.com/chukwuyem11/personal_website"
       
     },
-    {id: 4,
+    {id: 8,
       image:"past8",
       link: "https://github.com/chukwuyem11/simple-todo"
       
@@ -43,7 +67,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
             <Center>
            
         <Box ><Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["30px", "35px", "40px"]} mt="50px" textAlign={["left","center", "left"]} fontFamily="IBM Plex Mono">Hello,</Text><Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["30px", "35px", "40px"]} textAlign={["left","center", "left"]} fontFamily="IBM Plex Mono"> I'm Eboigbodin Chukwuyem</Text>
-        <Box w={["","","80%"]}><Text fontSize={["16px","18px", "20px" ]} color="#ffffff" mt="50px" mb="50px" textAlign={["left","center", "left"]} fontFamily="IBM Plex Mono">I design platforms and help solve problems with my skills on the web, and yes, I love it, it's fun.</Text></Box>
+        <Box w={["","","80%"]}><Text fontSize={["16px","18px", "20px" ]} color="#ffffff" mt="50px" mb="50px" textAlign={["left","center", "left"]} fontFamily="IBM Plex Mono">I build and design beautiful and interactive  experiences for the web for fun.</Text></Box>
        
         <Box display={["block", "none", "block"]}>
           <Text color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["25px", "35px", "40px"]} fontFamily="IBM Plex Mono" textAlign={["left","center", "left"]}>Skilled In</Text>
@@ -53,22 +77,19 @@ import { Text, Box, Button, ButtonGroup, FormControl,
             
           <UnorderedList>
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">React</ListItem>
-  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Node js</ListItem>
-  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Express js</ListItem>
+
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Javascript</ListItem>
-  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Mysql</ListItem>
-  
+  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Emotion js</ListItem>
   
 </UnorderedList>
 </Box>
 <Box>
           <UnorderedList>
-          <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Nest js</ListItem>
-  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">React Native Web</ListItem>
+          
+
   <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Next js</ListItem>
-  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Postgresql</ListItem>
-  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Communication skills</ListItem>
-  
+  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">CSS</ListItem>
+  <ListItem fontSize={["16px","18px", "20px" ]} color="#ffffff">Framer Motion</ListItem>
 </UnorderedList>
 </Box>
 
