@@ -15,23 +15,26 @@ import { Text, Box, Button, ButtonGroup, FormControl,
     const Works = [
       {
         id: 1,
-        image:"past15",
-        name: "mini-web landing page",
-        link: "https://min-website-roan.vercel.app/"
+        image:"dig",
+        name: "Digages(A link page builder for business owners)",
+        link: "https://digages.com/",
+        body: "A link page builder for business owners"
         
       },
       {
         id: 2,
         image:"past16",
         name: "note taking app",
-        link: "https://nootes.herokuapp.com/"
+        link: "https://nootes.herokuapp.com/",
+        body: "A simple note taking app (...the project every developer will build at some point lol), built with, Next js for frontend, express js for backend, supabase postgres for database, prisma for ORM, emotion js for styling framer motion for animation and deployed to heroku"
         
       },
       {
         id: 3,
         image:"past12",
         name: "chaart landing page",
-        link: "https://chaaart.vercel.app/"
+        link: "https://chaaart.vercel.app/",
+        body: "Realised a random UI design I found on  pinterest one day, it was real fun built with, Next js for frontend, emotion js for styling and deployed to vercel"
         
       },
       {
@@ -45,7 +48,8 @@ import { Text, Box, Button, ButtonGroup, FormControl,
         id: 5,
         image:"mami",
         name: "social commerce app (mobile)",
-        link: "https://mamihq.herokuapp.com"
+        link: "https://mamihq.herokuapp.com",
+        body: "A social commerce platform for streaming, buying and selling products, built with, Next js for frontend, express js for backend, supabase postgres for database, prisma for ORM, emotion js for styling framer motion for animation, also used Webrtc and Socet io to implement the video streaming feature "
         
       },
     {
@@ -64,7 +68,8 @@ import { Text, Box, Button, ButtonGroup, FormControl,
     {id: 8,
       image:"past8",
       name: "simple todo",
-      link: "https://github.com/chukwuyem11/simple-todo"
+      link: "https://github.com/chukwuyem11/simple-todo",
+      body: "A simple note taking app (...the project every developer will build at some point lol), built with, Next js for frontend, express js for backend, supabase postgres for database, prisma for ORM, emotion js for styling framer motion for animation and deployed to heroku"
       
     },
     
@@ -148,15 +153,17 @@ import { Text, Box, Button, ButtonGroup, FormControl,
   <Text mb="50px" color="#ffffff" fontSize={["25px","30px", "35px" ]} fontWeight="900" lineHeight={["25px", "35px", "40px"]} fontFamily="IBM Plex Mono"  textAlign={["left","center", "left"]}>My Works</Text>
 </Box>
 <Box display={["block", "none", "block"]}>
-<Grid   templateColumns={["repeat(1, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)"] }gap={[6, -6,-6]} mb="50px">
-{Works.map((work) => (<Box key={work.id} mt={["10px","20px","30px"]} ml={["","-11px","-11px"]} ><Link href={work.link}><Image src={`${work.image}.png`}  w={["80vw", "200","250px"]} h={["auto", "200","250px"]} borderRadius="5%" bg="#353535"    alt="Segun Adebayo"  p="0" /></Link>
-<Text mt="10px" color="#fff" fontSize={["16px","20px", "20px" ]} fontWeight="500"  fontFamily="IBM Plex Mono">{work.name}</Text></Box>))}
+<Grid   templateColumns={["repeat(1, 1fr)","repeat(2, 1fr)","repeat(2, 1fr)"] }gap={[6, -6,5]} mb="50px">
+{Works.map((work) => (<Box  key={work.id} overfl mt={["10px","20px","30px"]} ml={["","-11px","-11px"]} ><a href={work.link} target="_blank"><Image src={`${work.image}.png`}  w={["80vw", "200","250px"]} h={["auto", "200","250px"]} borderRadius="5%" bg="#353535"    alt="Segun Adebayo"  p="0" /></a>
+<Text mt="10px" color="#fff" fontSize={["16px","20px", "20px" ]} fontWeight="500"  fontFamily="IBM Plex Mono">{work.name}</Text>
+
+</Box>))}
 </Grid>
 </Box>
 
 <Center display={["none", "block", "none"]}>
 <Grid  templateColumns="repeat(2, 1fr)" gap={[6, 6,-6]} mb="50px">
-{Works.map((work) => (<Box key={work.id} mt={["10px","20px","30px"]} ml={["","11px","-11px"]} ><Link href={work.link}><Image src={`${work.image}.png`}  w={["150px", "250px","250px"]} h={["150px", "250px","250px"]} borderRadius="5%" bg="#353535"    alt="Segun Adebayo"  p="0" /></Link>
+{Works.map((work) => (<Box key={work.id} mt={["10px","20px","30px"]} ml={["","11px","-11px"]} ><a href={work.link} target="_blank"><Image src={`${work.image}.png`}  w={["150px", "250px","250px"]} h={["150px", "250px","250px"]} borderRadius="5%" bg="#353535"    alt="Segun Adebayo"  p="0" /></a>
     <Text color="#fff" fontSize={["25px","30px", "35px" ]} fontWeight="500"  fontFamily="IBM Plex Mono">{work.name}</Text>
 </Box>))}
 </Grid>
