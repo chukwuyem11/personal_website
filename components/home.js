@@ -15,7 +15,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
     const Works = [
       {
         id: 1,
-        image:"dig",
+        image:"digages",
         name: "Digages(A link page builder for business owners)",
         link: "https://digages.com/",
         body: "A link page builder for business owners"
