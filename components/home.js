@@ -25,7 +25,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
         id: 2,
         image:"past16",
         name: "note taking app",
-        link: "https://nootes.herokuapp.com/",
+        link: "https://web-production-53a7.up.railway.app/",
         body: "A simple note taking app (...the project every developer will build at some point lol), built with, Next js for frontend, express js for backend, supabase postgres for database, prisma for ORM, emotion js for styling framer motion for animation and deployed to heroku"
         
       },
@@ -48,7 +48,7 @@ import { Text, Box, Button, ButtonGroup, FormControl,
         id: 5,
         image:"mami",
         name: "social commerce app (mobile)",
-        link: "https://mamihq.herokuapp.com",
+        link: "https://web-production-e15e.up.railway.app/?tab=a",
         body: "A social commerce platform for streaming, buying and selling products, built with, Next js for frontend, express js for backend, supabase postgres for database, prisma for ORM, emotion js for styling framer motion for animation, also used Webrtc and Socet io to implement the video streaming feature "
         
       },
